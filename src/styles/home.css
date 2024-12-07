@@ -1,14 +1,107 @@
+/*! HOME-IMG !*/
+
 main #home-page-img {
-  border-radius: 24px;
-  margin-bottom: 100px;
+    border-radius: 24px;
+    margin-bottom: 100px;
+    position: relative;
 }
 
+main .text-conteiner {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+main .overlay-text {
+    background-color: #00000033;
+    border-radius: 24px;
+    position: absolute;
+    bottom: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    backdrop-filter: blur(10px);
+}
+
+.text,
+.text1,
+.text2 {
+    margin: 16px 0px;
+    color: #fffdfd;
+    margin: 0;
+    text-align: center;
+}
+
+.text1 {
+    max-width: 778px;
+    font-size: 64px;
+    margin: 4px 88px 12px 88px;
+}
+
+.text {
+    margin-top: 34.5px;
+    white-space: nowrap;
+    display: inline;
+    font-size: 24px;
+}
+
+.text2 {
+    max-width: 603px;
+    font-size: 22px;
+    text-align: center;
+}
+
+
+/*! ---------------------------------------------------------------------------------------------------------------------------- !*/
+
+
+/*! SLIDER !*/
+
 main .slider-text {
-  text-align: center;
-  margin-bottom: 26px;
-  text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 26px;
+    text-transform: uppercase;
+    font-size: 28px;
+    line-height: 33.6px;
 }
 
 main .about-us-container {
-  display: flex;
+    display: flex;
 }
+
+main .imageGrid {
+    display: flex;
+    overflow: hidden;
+    max-width: 2000px;
+}
+
+main .imageSet {
+    display: flex;
+    animation: scrollImages 40s linear infinite;
+}
+
+main .mainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+@keyframes scrollImages {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+main .mainImg {
+    width: 133px;
+    height: 92px;
+    margin-right: 40px;
+    object-fit: contain;
+}
+
+
+/*! ---------------------------------------------------------------------------------------------------------------------------- !*/

@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import 'styles/header.css';
-
+import React from 'react';
 const Header = () => {
   const { t, i18n } = useTranslation();
 
@@ -39,12 +39,11 @@ const Header = () => {
 
           <p className="language-phone-container__phone">+38 (050) 305-15-55</p>
         </div>
-
         <a>
-          <div style={{ width: '190px' }} className="button button-primary">
-            {t('order')}
-          </div>
-        </a>
+        <div style={{ width: '190px' }} className="button button-primary">
+          {t('order')}
+        </div>
+      </a>
       </div>
     </header>
   );
