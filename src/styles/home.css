@@ -1,0 +1,14 @@
+main #home-page-img {
+  border-radius: 24px;
+  margin-bottom: 100px;
+}
+
+main .slider-text {
+  text-align: center;
+  margin-bottom: 26px;
+  text-transform: uppercase;
+}
+
+main .about-us-container {
+  display: flex;
+}

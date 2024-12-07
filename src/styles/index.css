@@ -1,0 +1,62 @@
+@font-face {
+  font-family: 'RoadUI-SemiBold';
+  src: url('../assets/fonts/RoadUI-SemiBold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RoadUI-Regular';
+  src: url('../assets/fonts/RoadUI-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  font-family: 'RoadUI-Regular', sans-serif;
+	overflow-x: hidden;
+}
+
+.container {
+  width: 1240px;
+  margin: 0 auto;
+}
+
+.text-active {
+  color: #fbb216;
+}
+
+.button {
+  padding: 12px 48px;
+  text-align: center;
+  border-radius: 12px;
+  font-weight: 700;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.button-primary {
+  color: #0a0a0a;
+  background-color: #fbb216;
+}
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+ 
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+ 
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+
+}
