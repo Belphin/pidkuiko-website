@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/pidkuiko-website/static/css/main.8cf80a22.css",
-    "main.js": "/pidkuiko-website/static/js/main.5e7d597e.js",
+    "main.css": "/pidkuiko-website/static/css/main.74fc8037.css",
+    "main.js": "/pidkuiko-website/static/js/main.38588d4d.js",
     "static/media/RoadUI-Regular.ttf": "/pidkuiko-website/static/media/RoadUI-Regular.d94a97557516dddaf657.ttf",
     "static/media/RoadUI-SemiBold.ttf": "/pidkuiko-website/static/media/RoadUI-SemiBold.681b797f66b78ab4f5f8.ttf",
     "index.html": "/pidkuiko-website/index.html",
-    "main.8cf80a22.css.map": "/pidkuiko-website/static/css/main.8cf80a22.css.map",
-    "main.5e7d597e.js.map": "/pidkuiko-website/static/js/main.5e7d597e.js.map"
+    "main.74fc8037.css.map": "/pidkuiko-website/static/css/main.74fc8037.css.map",
+    "main.38588d4d.js.map": "/pidkuiko-website/static/js/main.38588d4d.js.map"
   },
   "entrypoints": [
-    "static/css/main.8cf80a22.css",
-    "static/js/main.5e7d597e.js"
+    "static/css/main.74fc8037.css",
+    "static/js/main.38588d4d.js"
   ]
 }
